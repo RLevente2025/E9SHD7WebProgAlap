@@ -12,10 +12,10 @@
             echo "<h2>HTML Űrlap</h2>";
             $nev = $_POST["nev"];
             $pin = $_POST["pin"];
-            $fav_fruit = $_POST["fav_fruit"]
-            $age = $_POST ["age"]
-            $feet_size = $_POST["feet-size"]
-            $confidence = $_POST["confidence"]
+            $fav_fruit = $_POST["fav_fruit"];
+            $age = $_POST ["age"];
+            $feet_size = $_POST["feet-size"];
+            $confidence = $_POST["confidence"];
     
 
             echo "<p><strong>NÉV:</strong> " . $nev . "</p>";
@@ -26,7 +26,7 @@
             echo "<p><strong>Önbizalom:</strong> " . $confidence . "</p>";
 
         } else {
-            echo "<h2><strong>Űrlap nem lett beküldve!</strong></h2>"
+            echo "<h2><strong>Űrlap nem lett beküldve!</strong></h2>";
         }
 
         ?>
