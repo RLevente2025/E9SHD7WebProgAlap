@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomb</title>
+</head>
+<body>
+    <h3>Tömb elemeinek elérése, kiírása</h3>
+    <p id="E9SHD7"> </p>
+    <button onclick="elso()">Első elem (0.index)</button>
+    <button onclick="masodik()">Második elem (1.index)</button>
+    <button onclick="harmadik()">Harmadik elem (2.index)</button>
+    <button onclick="osszes()">Összes elem (3.index)</button>
+
+    <script>
+        let prognyelvek =n["HTML5", "CSS3", "JS"]
+
+        function elso() {
+            document.getElementById("E9SHD7").innerHTML = programnyelvek[0];
+        }
+
+        function masodik() {
+            document.getElementById("E9SHD7").innerHTML = programnyelvek[1];
+        }
+        function harmadik() {
+            document.getElementById("E9SHD7").innerHTML = programnyelvek[2];
+        }
+        function osszes() {
+            document.getElementById("E9SHD7").innerHTML = programnyelvek;
+        }
+    </script>
+</body>
+</html>

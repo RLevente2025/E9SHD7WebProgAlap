@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tömb elemének módositása</title>
+</head>
+<body>
+    <h3>Tömb elemének módositása</h3>
+
+    <strong>Előtte:</strong> <p id="E9SHD7"> </p>
+    <strong>Utánna:</strong> <p id="E9SHD71"> </p>
+    <button onclick="modosít()">Tömbelem módosítása</button>
+    <script>
+        let prognyelvek = ["HTML5","CSS3", "JS"];
+        document.getElementById("E9SHD7").innerHTML = programnyelvek;
+        programnyelvek[1] = "C nyelv";
+        function modosít() {
+            document.getElementById("E9SHD7").innerHTML = programnyelvek;
+        }
+    </script>
+</body>
+</html>
